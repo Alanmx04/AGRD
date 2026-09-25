@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario ~ Evento Universitario</title>
+</head>
+<body>
+    <h1 aling="center">Registro de Participantes - Evento Universitario</h1>
+    <p>Por favor, completa el siguiente ormulario para registrar tu asistencia al evento.</p>
+    <hr>
+
+    <form action="" method="post">
+
+    <!--Nombre Completo-->
+
+    <!--Nombres-->
+    <p>
+        <label for="nombre">Nombre(s)</label><br>
+        <input type="text" id="nombre" name="nombre" required>
+    </p>
+
+    <!--Apellido Paterno-->
+    <p>
+        <label for="apellidopaterno">Apellido Paterno:</label><br>
+        <input type="text" id="apellidopaterno" name="apellidopaterno" required>
+    </p>
+
+     <!--Apellido Materno-->
+    <p>
+        <label for="apellidomaterno">Apellido Materno:</label><br>
+        <input type="text" id="apellidomaterno" name="apellidomaterno" required>
+    </p>
+
+    <!--Correo Electronico-->
+    <p>
+        <label for="correo">Correo Electronico:</label><br>
+        <input type="email" name="correo" id="correo" required>
+    </p>
+    
+    <!--Edad-->
+    <p>
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" min="15" max="100" style="width: 60px;" required>
+    </p>
+
+    <!--Fecha de nacimienoo-->
+    <p>
+        <label for="fechanacimiento">Fecha de Nacimiento:</label><br>
+        <input type="date" id="fechanacimiento" name="fechanacimiento" required>
+    </p>
+
+    <!--Carreras-->
+    <p>
+        <label for="carrera">Carreras Univeristarias</label><br>
+        <select id="carrera" name="carrera" required>
+            <option value="">--Selecciona tu Carrera--</option>
+            <option value="administracion">Administracion</option>
+            <option value="finanzas">Finanzas</option>
+            <option value="negociosinternacionales">Negocios Internacionales</option>
+            <option value="economia">Economia</option>
+            <option value="gastronomia">Gastronomia</option>
+            <option value="tecnologias">Tecnologias de la Informacion</option>
+            <option value="otra">Otra Carrera</option>
+        </select>
+        </p>
+
+            <!--turno-->
+            <p>
+                <label>Turno:</label><br>
+                <input type="radio" id="matutino" name="turno" value="matutino" required>
+                <label for="matutino">Matutino</label>
+                <br>
+                <input type="radio" id="vespertino" name="turno" value="vespertino">
+                <label for="vespertino">Vespertino</label>
+            </p>
+
+            <!--Terminos-->
+            <p>
+                   <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Acepto los terminos y condiciones del evento.</label>
+            </p>
+
+            <!--Botones-->
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar Formulario">
+            </p>
+        </form>
+                <hr>
+                <footer>
+                    <p><small>&copy; Registro de Eventos Universitarios</small></p>
+                </footer>  
+</body>
+</html>
