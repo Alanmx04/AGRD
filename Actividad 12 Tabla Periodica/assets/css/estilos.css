@@ -1,0 +1,81 @@
+h1{ 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabla{
+    width: 1100px;
+    margin: 0 auto;
+}
+.tabla a{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: relative;
+    margin-top: 4px;
+}
+.nometalr{
+    background-color: lightgreen;
+}
+.gasnoble{
+    background-color: lightpink;
+}
+.metalesalcalinos{
+    background-color: red;
+    color: white !important;
+}
+.metaloides{
+    background-color: yellow;
+}
+.metalesalcalinoterreo{
+    background-color: orange;
+    color: white !important;
+}
+.propiedadesdesconocidas{
+    background-color: darkgrey;
+}
+.metalestranscisionales{
+    background-color: cornflowerblue;
+}
+.metalespostransicionales{
+    background-color: purple;
+}
+.lantanidos{
+    background-color: dodgerblue;
+    color: white !important;
+}
+.actonoides{
+    background-color: aquamarine;
+}
+.helio{
+    left: 958px;
+}
+.boro{
+    left:610px;
+}
+.aluminio{
+    left:610px;
+}
+.separacion{
+    margin-right: 30px;
+}
+.cedio{
+    left: 206px;
+}
+.torio{
+    left:206px;
+}
+.tabla a:hover{
+    transform: scale(1.2);
+}
+.imagen{
+    display: block;
+    width: 600px;
+    height: auto;
+    margin: 20px auto;
+}
